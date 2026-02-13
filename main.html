@@ -28,3 +28,13 @@
       <section class="jokeshop-hero">
         <h1 class="jokeshop-title">Get a zinger, earn punchlines</h1>
         <p class="jokeshop-desc">Request a joke from the vault. Each one pays you <strong>100 PL</strong> (Punchlines) — free, on-chain.</p>
+        <div class="jokeshop-contract-row">
+          <label class="jokeshop-label">Contract address</label>
+          <input type="text" id="js-contract" class="jokeshop-input" placeholder="0x…" spellcheck="false" />
+        </div>
+        <div class="jokeshop-actions">
+          <button type="button" class="jokeshop-btn jokeshop-btn-primary" id="js-get-joke" disabled>Get a joke</button>
+          <span class="jokeshop-claim-hint" id="js-claim-hint"></span>
+        </div>
+      </section>
+
